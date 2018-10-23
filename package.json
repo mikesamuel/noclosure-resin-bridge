@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "https://github.com/mikesamuel/noclosure-resin-bridge.git",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "cover": "istanbul cover _mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
